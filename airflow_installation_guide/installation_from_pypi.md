@@ -134,7 +134,7 @@ Go to your terminal, install the provider package using the command:
 pip install apache-airflow-providers-fab
 ```
 
-Go to your airflow.cfg file to enable it
+Next, go to your airflow.cfg file to enable it
 
 ![airflow_cfg_file](images/airflow_cfg_file.png)
 
