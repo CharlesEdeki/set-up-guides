@@ -138,7 +138,11 @@ Next, go to your airflow.cfg file to enable it
 
 ![airflow_cfg_file](images/airflow_cfg_file.png)
 
-Under core section, enable Flask AppBuilder (FAB) Auth Manager using the command:
+Under core section, 
+
+![core section](images/core__section.png)
+
+scroll down to where you will find auth manager and edit its value with this
 
 ```
 auth_manager = airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
